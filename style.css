@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("image/pizzeria.jpg");
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow:0 0 5px #000000;
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    text-shadow:0 0 5px #000000;
+}
+#divFormuCde {
+    background-color: #eeeeee;
+    padding: 30px;
+    margin: 0 auto;
+    width: 290px;
+}

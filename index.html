@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<h1>Tonio Pizzeria</h1>
+
+<div id="divFormuCde">
+    <label>Combien de pizzas désirez-vous ?
+        <input type="number" id="chNbrPiz" />
+    </label>
+    <br />
+    <br />
+    <label>Quel genre de pizzas ?
+        <select id="chTypePizza">
+            <option value="pFromage">Au fromage</option>
+            <option value="pPoivron">Aux poivrons</option>
+            <option value="pRoyale">Royale</option>
+            <option value="pMilanaise">Milanaise</option>
+        </select>
+    </label>
+    <br />
+    <br />
+    <label>Dans quelle ville faut-il livrer ?
+        <select id="chLivVille">
+            <option value="En ville">En ville</option>
+            <option value="Courberoute">Courberoute</option>
+            <option value="Passy">Passy-Malaisot</option>
+        </select>
+    </label>
+    <br />
+    <br />
+    <label>Rajouter un ingredient ?
+        <select id="chCingr">
+            <option value="Aucun">Aucun</option>
+            <option value="Fromage">Fromage</option>
+            <option value="Jambon">Jambon</option>
+            <option value="Oeuf">Oeuf</option>
+        </select>
+    </label>
+    <br />
+    <br />
+    <label>Est-ce votre jour d'anniversaire ?
+        <select id="chCliNai">
+            <option value="chOui">Oui !</option>
+            <option value="chNon">Non</option>
+        </select>
+    </label>
+    <br />
+    <br />
+    <label>Es-tu une femme ?
+        <select id="chClsex">
+            <option value="bOui">Oui !</option>
+            <option value="bNon">Non</option>
+        </select>
+    </label>
+    <br />
+    <br />
+    <button type="button" id="btnCde">Commander</button>
+</div>
+<div id="affTicket"></div>
+<div id="affPromo"></div>
+
+<script type="text/javascript" src="pizza.js"></script>
+</body>
+</html>
